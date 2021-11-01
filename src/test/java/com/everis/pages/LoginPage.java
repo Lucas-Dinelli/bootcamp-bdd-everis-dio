@@ -8,13 +8,13 @@ import com.everis.util.Hooks;
 
 public class LoginPage extends BasePage {
 	
-	@FindBy(name = "email")
+	@FindBy(id = "email")
 	protected WebElement campoEmailParaRealizarLogin;
 	
-	@FindBy(name = "passwd")
+	@FindBy(id = "passwd")
 	protected WebElement campoSenhaParaRealizarLogin;
 	
-	@FindBy(name = "SubmitLogin")
+	@FindBy(id = "SubmitLogin")
 	protected WebElement botaoRealizarLogin;
 	
 	public LoginPage() {
